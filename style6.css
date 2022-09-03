@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 241, 22);
+    
+}
+.countdown-timer-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.countdown-timer-container div{
+    width: 25%;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.countdown-timer-values{
+    font-size: 90px;
+
+}
